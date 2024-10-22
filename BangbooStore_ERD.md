@@ -31,7 +31,7 @@ INVENTORY {
 }
 
 CUSTOMER ||..o{ SALE : makes
-PRODUCT  ||..o{ SALE : is_sold_in
+PRODUCT  ||..|{ SALE : is_sold_in
 INVENTORY  ||..|| PRODUCT : is_tracked_in
 
 ```
