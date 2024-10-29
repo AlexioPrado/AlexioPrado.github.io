@@ -7,13 +7,13 @@ Light Shade: #EDEFF5;
 */
 
 @font-face {
-    font-family: CookieRun;
-    src: url('https://alexioprado.github.io/COOKIERUN BLACK.ttf');
+    font-family: Cookierun;
+    src: url('C:\Windows\Fonts\COOKIERUN REGULAR.ttf');
 }
 body {
     background-color: #6E88CB;
     text-align: center;
-    font-family: CookieRun;
+    font-family: Cookierun;
 }
 h1,h2,a {
     font-weight: 1000;
