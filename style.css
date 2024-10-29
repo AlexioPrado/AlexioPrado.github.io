@@ -1,0 +1,31 @@
+/* Color Pallette:
+Dark Shades: #10256D;
+Dark Accent: #2155A9;
+Main Brand: #66A8E3;
+Light Accent: #6E88CB;
+Light Shade: #EDEFF5;
+*/
+
+@font-face {
+    font-family: CookieRun;
+    src: url('https://alexioprado.github.io/"COOKIERUN BLACK.ttf"');
+}
+body {
+    background-color: #6E88CB;
+    text-align: center;
+    font-family: CookieRun;
+}
+h1,h2,a {
+    font-weight: 1000;
+    font-size: 1000;
+    color: #2155A9;
+}
+section {
+    color: #EDEFF5;
+}
+#Hard-Skill,#Soft-Skill {
+    background-color: #66A8E3;
+}
+li {
+    list-style: none;
+}
