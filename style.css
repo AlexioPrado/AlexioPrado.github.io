@@ -6,26 +6,32 @@ Light Accent: #6E88CB;
 Light Shade: #EDEFF5;
 */
 
-@font-face {
-    font-family: Cookierun;
-    src: url('C:\Windows\Fonts\COOKIERUN REGULAR.TTF');
-}
+
 body {
     background-color: #6E88CB;
     text-align: center;
-    font-family: Cookierun;
+    font-family: Georgia;
 }
 h1,h2,a {
     font-weight: 1000;
-    font-size: 1000;
+    font-size: 200%;
     color: #2155A9;
 }
 section {
     color: #EDEFF5;
 }
+strong {
+    color: #10256D;
+}
 #Hard-Skill,#Soft-Skill {
     background-color: #66A8E3;
 }
+p {
+    font-size: 24px;
+}
 li {
     list-style: none;
+}
+#Directory-Links {
+    display: inline;
 }
