@@ -8,39 +8,72 @@ Light Shade: #EDEFF5;
 
 
 body {
-    background-color: #6E88CB;
+    background-color: #364c85;
     text-align: center;
     font-family: Georgia;
 }
 h1,h2 {
-    font-weight: 1000;
-    font-size: 24px;
+    font-size: 18px;
     color: #2155A9;
+}
+li {
+    text-align: left;
+    list-style: none;
 }
 section {
     color: #EDEFF5;
 }
 strong {
     color: #10256D;
-}
-#Hard-Skill,#Soft-Skill {
-    background-color: #66A8E3;
+
 }
 p,li {
-    font-size: 18px;
-}
-li {
-    list-style: none;
+    font-size: 12px;
 }
 img {
-    width:50%;
+    width:80px;
+    height: 80px;
+    display: inline-block;
+    border-radius: 50%;
 }
-.navdirectory {
-    color: #EDEFF5;
+.column {
+    float: left;
+    width: 31.5%;
+    margin: 3px;
 }
-.navdirectory li {
-    list-style: none;
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+.card { 
+    background-color: #66A8E3;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.navbar {
+    list-style-type: none;
     margin: 0;
     padding: 0;
-
+    overflow: hidden;
+    background-color: #2155A9;
+}
+.link a {
+    display: block;
+    color: #66A8E3;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+.link {
+    float: left;
+}
+/* Change the link color to #111 (black) on hover */
+.link a:hover {
+    background-color: #EDEFF5;
+}
+.navti {
+    color: #66A8E3;
 }
