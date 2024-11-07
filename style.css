@@ -30,7 +30,7 @@ strong {
 p,li {
     font-size: 12px;
 }
-img {
+.Profile {
     width:80px;
     height: 80px;
     display: inline-block;
@@ -59,6 +59,7 @@ clear: both;
     padding: 0;
     overflow: hidden;
     background-color: #2155A9;
+    border-radius: 10px;
 }
 .link a {
     display: block;
@@ -70,10 +71,34 @@ clear: both;
 .link {
     float: left;
 }
-/* Change the link color to #111 (black) on hover */
+
 .link a:hover {
     background-color: #EDEFF5;
 }
 .navti {
     color: #66A8E3;
+}
+input,textarea {
+    border-radius: 5px;
+}
+
+input:focus {
+    background-color: lightblue;
+}
+.Banner {
+    width: 100%;
+}
+.gif {
+    width: 210px;
+    height: 290px;
+    float:left;
+    border-radius: 10px;
+}
+#submit {
+    background-color: #10256D;
+    color:#EDEFF5;
+}
+#submit:hover {
+    background-color: #EDEFF5;
+    color:#10256D;
 }
