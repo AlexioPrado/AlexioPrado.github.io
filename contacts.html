@@ -18,42 +18,44 @@
             </p>
         </section>
         <br>
-        <img class="gif" src=".\Cat.gif" alt="cat dancing">
         <section class ="form card">
-            <form action="/information.html" method="POST">
-                <h1 style="color: #10256D">Feedback Form</h1>
-                <p>Share your thoughts, ideas, and suggestions with this form!</p>
+            <div class="flex-container">
+                <img class="gif" src=".\Cat.gif" alt="cat dancing">
+                <form action="/information.html" method="POST">
+                    <h1 style="color: #10256D">Feedback Form</h1>
+                    <p>Share your thoughts, ideas, and suggestions with this form!</p>
 
-                <label for="name">Full Name (Last,First):</label>
-                <input type="text" id="name" name="name" style="color: #2155A9" required>
-                <br><hr style="width: 100px">
+                    <label for="name">Full Name (Last,First):</label>
+                    <input type="text" id="name" name="name" style="color: #2155A9" required>
+                    <br><hr style="width: 100px">
 
-                <label for="email">Email:</label>
-                <input type="text" id="email" name="email" style="color: #2155A9" required>
-                <br><hr style="width: 100px">
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email" style="color: #2155A9" required>
+                    <br><hr style="width: 100px">
 
-                <label for="phone_num">Phone Number:</label>
-                <input type="tel" id="phone_num" name="phone_num" value="(+1)" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" style="color: #2155A9">
-                <br><hr style="width: 100px">
+                    <label for="phone_num">Phone Number:</label>
+                    <input type="tel" id="phone_num" name="phone_num" value="(+1)" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" style="color: #2155A9">
+                    <br><hr style="width: 100px">
 
-                <section class="radio">
-                    <input type="radio" id="Question" name="answer" value="Question">
-                    <label for="Question">Question</label>
+                    <section class="radio">
+                        <input type="radio" id="Question" name="answer" value="Question">
+                        <label for="Question">Question</label>
 
-                    <input type="radio" id="Comment" name="answer" value="Comment">
-                    <label for="Comment">Comment</label>
+                        <input type="radio" id="Comment" name="answer" value="Comment">
+                        <label for="Comment">Comment</label>
 
-                    <input type="radio" id="Suggestion" name="answer" value="Suggestion">
-                    <label for="Suggestion">Suggestion</label>
+                        <input type="radio" id="Suggestion" name="answer" value="Suggestion">
+                        <label for="Suggestion">Suggestion</label>
 
-                </section>
-                <br>
-                <textarea id="message" name="message" minlength="10" style="color: #2155A9; min-width: 225px"></textarea>
-                <br><hr style="width: 100px">
+                    </section>
+                    <br>
+                    <textarea id="message" name="message" minlength="10" style="color: #2155A9; min-width: 225px"></textarea>
+                    <br><hr style="width: 100px">
 
-                <input id="submit" type="submit" value="send">
+                    <input id="submit" type="submit" value="send">
 
-            </form>
+                </form>
+            </div>
         </section>
     </body>
 </html>
