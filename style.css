@@ -38,8 +38,10 @@ p,li {
 }
 .column {
     float: left;
-    width: 31.5%;
+    width: 31.8%;
     margin: 3px;
+    min-width: 170px;
+    max-width: 270px;
 }
 /* Clear floats after the columns */
 .row:after {
@@ -51,6 +53,7 @@ clear: both;
     background-color: #66A8E3;
     border-radius: 10px;
     padding: 2px;
+    position:static
 }
 
 .navbar {
@@ -60,6 +63,8 @@ clear: both;
     overflow: hidden;
     background-color: #2155A9;
     border-radius: 10px;
+    min-width: 280px;
+    max-width: 500px;
 }
 .link a {
     display: block;
@@ -74,6 +79,7 @@ clear: both;
 
 .link a:hover {
     background-color: #EDEFF5;
+    color:#10256D;
 }
 .navti {
     color: #66A8E3;
@@ -91,7 +97,7 @@ input:focus {
 }
 .gif {
     width: 210px;
-    height: 290px;
+    height: 300px;
     float:left;
     border-radius: 10px;
 }
