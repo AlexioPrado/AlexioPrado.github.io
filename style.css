@@ -87,6 +87,7 @@ input:focus {
 }
 .Banner {
     width: 100%;
+    height: 100px;
 }
 .gif {
     width: 210px;
