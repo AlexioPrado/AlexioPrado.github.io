@@ -39,8 +39,8 @@ p,li {
 .column {
     float:left;
     width: 31.8%;
-    margin: 3px;
-    max-width: 100%;
+    margin: 5px;
+    height: fit-content;
 }
 /* Clear floats after the columns */
 .row:after {
@@ -51,30 +51,38 @@ clear: both;
 .row2 {
     display:flex;
     justify-content: center;
+    
 }
 .row {
     display: flex;
-    border-radius: 8px;
-    justify-content: center;
-    max-width: fit-content;
-    
+    border-radius: 20px;
+    background-color: #10256D;
+    max-width: 85%;
+    padding: 5px;
+   
 }
 .card { 
     background-color: #66A8E3;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 2px;
 }
 .navbar {
     display: flex;
     justify-content: center;
+    flex-direction: row;
 }
+@media (max-width: 800px) {
+    .nav-bar {
+      flex-direction: column;
+    }
+  }
 .navbar2 {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #2155A9;
-    border-radius: 10px;
+    border-radius: 20px;
     width: 310px;
     border: 2px solid #EDEFF5;
 }
@@ -111,7 +119,7 @@ input:focus {
     width: 200px;
     height: 270px;
     float:left;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 #submit {
     background-color: #10256D;
