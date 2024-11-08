@@ -51,8 +51,13 @@ clear: both;
 .row2 {
     display:flex;
     justify-content: center;
-    
+    flex-direction: row;
 }
+@media (max-width: 800px) {
+    .row2 {
+      flex-direction: column;
+    }
+  }
 .row {
     display: flex;
     border-radius: 20px;
