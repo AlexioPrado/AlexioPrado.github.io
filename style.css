@@ -37,9 +37,11 @@ p,li {
     border-radius: 50%;
 }
 .column {
-    float: left;
+    float:left;
     width: 31.8%;
     margin: 3px;
+    max-width: 100%;
+    border: 3px solid #10256D;
 }
 /* Clear floats after the columns */
 .row:after {
@@ -47,19 +49,34 @@ content: "";
 display: table;
 clear: both;
 }
+.row2 {
+    display:flex;
+    justify-content: center;
+}
+.row {
+    display: flex;
+    border-radius: 8px;
+    justify-content: center;
+    max-width: 70%;
+}
 .card { 
     background-color: #66A8E3;
     border-radius: 10px;
     padding: 2px;
 }
-
 .navbar {
+    display: flex;
+    justify-content: center;
+}
+.navbar2 {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #2155A9;
     border-radius: 10px;
+    width: 310px;
+    border: 2px solid #EDEFF5;
 }
 .link a {
     display: block;
@@ -74,6 +91,7 @@ clear: both;
 
 .link a:hover {
     background-color: #EDEFF5;
+    color:#10256D;
 }
 .navti {
     color: #66A8E3;
