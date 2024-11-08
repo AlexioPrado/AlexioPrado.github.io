@@ -53,19 +53,21 @@ clear: both;
     justify-content: center;
     flex-direction: row;
 }
-@media (max-width: 800px) {
-    .row2 {
-      flex-direction: column;
-    }
-  }
 .row {
     display: flex;
     border-radius: 20px;
     background-color: #10256D;
     max-width: 85%;
     padding: 5px;
-   
 }
+@media (max-width: 800px) {
+    .row {
+        flex-direction: column;
+    }
+    .column {
+        width:auto;
+    }
+  }
 .card { 
     background-color: #66A8E3;
     border-radius: 20px;
@@ -143,3 +145,11 @@ input:focus {
 .form {
     margin: 10px;
 }
+.contacts {
+    flex-direction: row;
+}
+@media (max-width: 800px) {
+    .contacts{
+      flex-direction: column;
+    }
+  }
