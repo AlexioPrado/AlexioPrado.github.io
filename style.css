@@ -41,7 +41,6 @@ p,li {
     width: 31.8%;
     margin: 3px;
     max-width: 100%;
-    border: 3px solid #10256D;
 }
 /* Clear floats after the columns */
 .row:after {
@@ -57,7 +56,8 @@ clear: both;
     display: flex;
     border-radius: 8px;
     justify-content: center;
-    max-width: 70%;
+    max-width: fit-content;
+    
 }
 .card { 
     background-color: #66A8E3;
