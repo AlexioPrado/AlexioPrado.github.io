@@ -142,14 +142,29 @@ input:focus {
     justify-content: center;
     align-items: center;
 }
-.form {
+.form,.cat {
     margin: 10px;
 }
-.contacts {
+.information-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.contact-container {
+    display:flex;
+    justify-content: center;
+}
+@media (max-width: 800px) {
+    #form{
+      flex-direction: column;
+    }
+}
+.interest {
+    display: flex;
     flex-direction: row;
 }
 @media (max-width: 800px) {
-    .contacts{
+    .interest{
       flex-direction: column;
     }
-  }
+}
