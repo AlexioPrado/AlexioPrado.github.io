@@ -42,6 +42,10 @@ p,li {
     margin: 5px;
     height: fit-content;
 }
+.columns {
+    margin: 5px;
+    height: fit-content;
+}
 /* Clear floats after the columns */
 .row:after {
 content: "";
