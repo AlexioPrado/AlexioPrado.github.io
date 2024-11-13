@@ -169,8 +169,7 @@ input:focus {
     justify-content: center;
 }  
 @media (max-width: 800px) {
-    .interest-container{
+    .interest{
       flex-direction: column;
-      justify-content: center;
     }
 }
