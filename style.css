@@ -159,10 +159,11 @@ input:focus {
       flex-direction: column;
     }
 }
-.interest {
+.interest-container {
     display: flex;
     flex-direction: row;
-}
+    justify-content: center;
+}  
 @media (max-width: 800px) {
     .interest{
       flex-direction: column;
